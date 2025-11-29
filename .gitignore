@@ -16,6 +16,14 @@ crash-reports/
 # Mods (descargar desde otra parte)
 mods/
 
+# Caché y datos generados
+showdown/
+.mixin.out/
+patchouli_books/
+
+# Archivos de bloqueo del servidor
+world/session.lock
+
 # Sistema operativo
 .DS_Store
 Thumbs.db

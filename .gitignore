@@ -1,0 +1,35 @@
+﻿# Dependencias y archivos generados automáticamente
+libraries/
+versions/
+.gradle/
+build/
+.fabric/
+
+# Archivos JAR generados (se recrean al ejecutar)
+fabric-server-launch.jar
+server.jar
+
+# Logs y reportes
+logs/
+crash-reports/
+
+# Mods (descargar desde otra parte)
+mods/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# NO IGNORAR - Estos SÍ se respaldan:
+# - world/ (mundo principal)
+# - world_nether/ (mundo del nether)
+# - world_the_end/ (mundo del end)
+# - server.properties (propiedades del servidor)
+# - fabric-server-launcher.properties (config Fabric)
+# - eula.txt (aceptación del EULA)
